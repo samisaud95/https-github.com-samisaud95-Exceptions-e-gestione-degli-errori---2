@@ -10,8 +10,8 @@ public class Main {
         }
     }
 
-    public static void controlloCarattere(char qualcuno) throws ArithmeticException {
-        if (Character.isDigit(qualcuno)) {
+    public static void controlloCarattere(char c) throws ArithmeticException {
+        if (Character.isDigit(c)) {
             System.out.println("Il carattere inserito è un numero");
         } else {
             throw new ArithmeticException("Il carattere inserito non è un numero");
